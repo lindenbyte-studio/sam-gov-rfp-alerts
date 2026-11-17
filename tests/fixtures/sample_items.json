@@ -1,0 +1,100 @@
+[
+  {
+    "noticeId": "0558990b461643d6bc2947e2ac21b6b1",
+    "title": "Siemens NX/Teamcenter Software Maintenance Renewal",
+    "solicitationNumber": "N6660427Q0050",
+    "noticeType": "Combined Synopsis/Solicitation",
+    "agency": "DEPT OF DEFENSE",
+    "office": "NUWC DIV NEWPORT",
+    "agencyHierarchy": [
+      "DEPT OF DEFENSE",
+      "DEPT OF THE NAVY",
+      "NAVSEA",
+      "NAVSEA WARFARE CENTER",
+      "NUWC DIV NEWPORT"
+    ],
+    "postedDate": "2026-11-16T21:23:35+00:00",
+    "modifiedDate": "2026-11-16T21:23:35+00:00",
+    "responseDeadline": "2026-11-19T14:00:00-05:00",
+    "responseTimeZone": "America/New_York",
+    "naics": [
+      "541519"
+    ],
+    "psc": "DA10",
+    "setAside": "SBA",
+    "placeOfPerformance": null,
+    "awardee": null,
+    "isActive": true,
+    "isCanceled": false,
+    "description": "Please see attachments for details on this opportunity.",
+    "url": "https://sam.gov/opp/0558990b461643d6bc2947e2ac21b6b1/view",
+    "keyword": "software",
+    "scrapedAt": "2026-11-17T15:30:21.406Z",
+    "awardAmount": null,
+    "awardDate": null
+  },
+  {
+    "noticeId": "fb4a3759d03f4635b42009486a207d34",
+    "title": "DHS Network Operations Security Center (NOSC) Network, Cloud, and Cyber Services (NCCS) 2.0",
+    "solicitationNumber": "70RTAC26R00000007",
+    "noticeType": "Combined Synopsis/Solicitation",
+    "agency": "HOMELAND SECURITY, DEPARTMENT OF",
+    "office": "INFO TECH ACQ CENTER",
+    "agencyHierarchy": [
+      "HOMELAND SECURITY, DEPARTMENT OF",
+      "OFFICE OF PROCUREMENT OPERATIONS",
+      "INFO TECH ACQ CENTER"
+    ],
+    "postedDate": "2026-11-16T19:45:52+00:00",
+    "modifiedDate": "2026-11-16T19:45:52+00:00",
+    "responseDeadline": "2026-09-22T00:00:00-04:00",
+    "responseTimeZone": "America/New_York",
+    "naics": [
+      "541519"
+    ],
+    "psc": "DF01",
+    "setAside": null,
+    "placeOfPerformance": "Springfield, VA, 22150, USA",
+    "awardee": null,
+    "isActive": true,
+    "isCanceled": false,
+    "description": "*************************UPDATE**************************** Final Draft Attachment 1 SOW was uploaded erroneously. The correct attachment has been uploaded at the end of this notice.",
+    "url": "https://sam.gov/opp/fb4a3759d03f4635b42009486a207d34/view",
+    "keyword": "cloud",
+    "scrapedAt": "2026-11-17T15:30:21.687Z",
+    "awardAmount": null,
+    "awardDate": null
+  },
+  {
+    "noticeId": "0ba14b48c9b54772aa2f11e3c1e8d5c6",
+    "title": "Dentrix Enterprise, Electronic Dental Record (EDR) Services and Support",
+    "solicitationNumber": "ACQ-IHS-2027-U-00045 ",
+    "noticeType": "Sources Sought",
+    "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+    "office": "PHOENIX AREA INDIAN HEALTH SVC",
+    "agencyHierarchy": [
+      "HEALTH AND HUMAN SERVICES, DEPARTMENT OF",
+      "INDIAN HEALTH SERVICE",
+      "PHOENIX AREA INDIAN HEALTH SVC"
+    ],
+    "postedDate": "2026-11-16T16:20:21+00:00",
+    "modifiedDate": "2026-11-16T16:20:21+00:00",
+    "responseDeadline": "2026-11-10T17:00:00-07:00",
+    "responseTimeZone": "America/Denver",
+    "naics": [
+      "541512"
+    ],
+    "psc": "H965",
+    "setAside": null,
+    "placeOfPerformance": "Phoenix, AZ, 85004, USA",
+    "awardee": null,
+    "isActive": true,
+    "isCanceled": false,
+    "description": "The purpose of this contract is to provide continued area-wide access to Dentrix Enterprise Electronic Dental Record (EDR) services, software maintenance, and technical support. The system shall support essential dental clinic operation",
+    "url": "https://sam.gov/opp/0ba14b48c9b54772aa2f11e3c1e8d5c6/view",
+    "keyword": "software",
+    "scrapedAt": "2026-11-17T15:30:21.541Z",
+    "awardAmount": null,
+    "awardDate": null
+  }
+]

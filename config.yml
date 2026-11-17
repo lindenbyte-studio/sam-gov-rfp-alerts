@@ -1,0 +1,37 @@
+# SAM.gov RFP alerts: the only file you need to edit.
+# Everything under `input:` is passed to the Apify Actor "SAM.gov Contract Opportunities Scraper" as-is.
+# All fields: https://apify.com/lindenbyte/sam-gov-contract-opportunities/input-schema
+
+input:
+  # Each keyword is searched separately; duplicates are removed. Use "quotes" for an exact phrase.
+  # Leave the list empty ([]) to get every new notice that matches the other filters.
+  keywords:
+    - software
+    - cloud
+    - cybersecurity
+  # NAICS codes (match any). Remove the list to search all industries.
+  naicsCodes:
+    - "541511"   # Custom computer programming services
+    - "541512"   # Computer systems design services
+    - "541519"   # Other computer related services
+  # solicitation, presolicitation, combined, sources-sought, special-notice, award, ...  Empty = all types.
+  noticeTypes:
+    - solicitation
+    - combined
+    - presolicitation
+    - sources-sought
+  setAside: any            # any, SBA, 8A, HZC, SDVOSBC, WOSB, EDWOSB
+  # agency: DEPT OF DEFENSE  # optional, case-insensitive match on the agency/office
+  # state: VA                # optional, two-letter place-of-performance state
+  postedWithinDays: auto   # auto = since yesterday (Mon: since Friday) to match the weekday schedule; or a number of days
+  activeOnly: true
+  strictKeywordMatch: true # drop notices that only mention the keyword in attachments/boilerplate
+  maxResults: 50           # cost cap: you pay per opportunity returned
+  includeDetails: true     # adds NAICS, set-aside, place of performance, description
+
+alert:
+  title: New SAM.gov opportunities
+  max_items_in_message: 25   # the full list is always in the run artifact (items.csv)
+  max_charge_usd: 0.25       # hard cap per run, enforced by Apify
+  dedupe: true               # skip notices already sent on a previous run (state kept in the Actions cache)
+  send_when_empty: false     # true = also send a "nothing new today" message
